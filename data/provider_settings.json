@@ -1,0 +1,20 @@
+{
+  "mode": "formal_public_http",
+  "a_primary": "tencent_http",
+  "a_fallback": "sina_http",
+  "h_primary": "tencent_http",
+  "fx_primary": "eastmoney_fx",
+  "fx_cache_seconds": 30,
+  "open_leg_max_age_seconds": 20,
+  "both_market_max_skew_seconds": 20,
+  "fx_max_age_seconds": 180,
+  "request_timeout_seconds": 4.0,
+  "circuit_failure_threshold": 3,
+  "circuit_cooldown_seconds": 15,
+  "ewma_alpha": 0.25,
+  "fast_retry_attempts": 1,
+  "retry_jitter_min_ms": 40,
+  "retry_jitter_max_ms": 140,
+  "rule": "Public HTTP live quotes only. Requests use persistent pools, one fast jittered retry, provider health scoring and short circuit-breaker cooldowns. Never substitute daily cache for an open market leg.",
+  "h_fallback": "none"
+}

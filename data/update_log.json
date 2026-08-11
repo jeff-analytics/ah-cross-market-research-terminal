@@ -1,0 +1,13 @@
+{
+  "status": "sample",
+  "updated_at": null,
+  "requested_pairs": 202,
+  "updated_pairs": 0,
+  "failed_pairs": [],
+  "real_data_companies": 0,
+  "local_companies": 202,
+  "history_60_plus": 202,
+  "data_mode": "local_cache",
+  "source": "bundled_sample_history",
+  "note": "Offline GitHub preview only. Runtime dates are determined dynamically; selected-company daily history is synchronized on demand and the background crawler updates the full market."
+}

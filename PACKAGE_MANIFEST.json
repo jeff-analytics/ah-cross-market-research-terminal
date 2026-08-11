@@ -1,0 +1,8 @@
+{
+  "product": "A/H Cross-Market Research Terminal",
+  "version": "v5.1.8",
+  "edition": "final-ui-clean",
+  "runtime": ["server.py", "src/", "web/", "data/", "scripts/"],
+  "platform_launchers": ["INSTALL_WINDOWS.bat", "START_TERMINAL.bat", "STOP_LIVE_MONITOR.bat", "INSTALL_MAC.command", "START_TERMINAL.command", "STOP_LIVE_MONITOR.command"],
+  "notes": "Legacy duplicate CMD/BAT launchers, preview exports and historical acceptance reports intentionally omitted."
+}

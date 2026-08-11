@@ -1,0 +1,32 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+
+# Runtime state and raw crawler responses
+data/*.pid
+data/*.stop
+data/*_console.log
+data/daily_crawler_status.json
+data/history_coverage.json
+data/source/
+data/live_monitor.db
+data/live_monitor.db-shm
+data/live_monitor.db-wal
+
+# Local logs
+install_windows.log
+windows_diagnosis.log
+install_mac.log
+macos_diagnosis.log
+
+# Local user state
+# Keep bundled watchlist.json only if you want the default example watchlist.
+
+# Atomic-write temporary files
+*.tmp.*
+
+# Runtime-selected focus company
+data/focus_state.json

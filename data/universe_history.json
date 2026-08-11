@@ -1,0 +1,15 @@
+{
+  "validated_snapshot": {
+    "date": "2026-07-30",
+    "companies": 202,
+    "description": "Bundled validated release snapshot used as the non-shrinking startup baseline."
+  },
+  "current_registry": {
+    "updated_at": "2026-07-30T16:10:00+08:00",
+    "companies": 202,
+    "source": "validated_snapshot_2026-07-30",
+    "status": "bundled_snapshot",
+    "note": "Runtime universe sync may expand this registry; incomplete smaller responses are retained only as diagnostics."
+  },
+  "snapshots": []
+}

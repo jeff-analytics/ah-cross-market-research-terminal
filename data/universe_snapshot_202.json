@@ -1,0 +1,14 @@
+{
+  "snapshot_date": "2026-07-30",
+  "active_companies": 202,
+  "composition": {
+    "previous_validated_seed": 201,
+    "new_listing": {
+      "company_name": "中际旭创",
+      "a_code": "300308",
+      "h_code": "03308",
+      "listing_date": "2026-07-30"
+    }
+  },
+  "note": "Bundled validated snapshot for deterministic startup. Runtime universe sync checks Eastmoney A/H comparison and never silently shrinks a validated full universe."
+}

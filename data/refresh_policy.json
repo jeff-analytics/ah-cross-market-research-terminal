@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "watchlist_seconds": 1,
+  "priority_seconds": 3,
+  "universe_seconds": 15,
+  "status_seconds": 3
+}

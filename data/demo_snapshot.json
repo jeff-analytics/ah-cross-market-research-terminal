@@ -1,0 +1,8 @@
+{
+  "snapshot_end": "2026-08-05",
+  "seed": 20260806,
+  "trading_days": 320,
+  "purpose": "offline_preview_only",
+  "data_source": "demo_full_universe",
+  "note": "Deterministic offline preview snapshot. Runtime online history is updated dynamically and must not present this snapshot as live market data."
+}
